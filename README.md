@@ -1,2 +1,2 @@
 # Barbearia-Instinto
-Repositório demonstrando projeto para site dinâmico em parceria com uma barbearia real do meu bairro.
+Repositório demonstrando o desenvolvimento de um site em parceria com uma barbearia real do meu bairro.
