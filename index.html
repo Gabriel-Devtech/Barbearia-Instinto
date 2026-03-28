@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Barbearia Instinto</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon-instinto.png">
+    <link rel="apple-touch-icon" href="img/icon-180x180.png">
+</head>
+<body>
+    <header>
+<nav id="menu" >
+<div id="logo" > 
+    <img src="assets/images/logo-instinto.svg" id="logo-instinto" alt="logo da barbearia instinto">
+</div>
+    <ul>
+       <li><a href="#SERVIÇOS">Serviços</a></li>
+        <li><a href="#CONTATO">Contato</a></li>
+        <li><a href="#LOCALIZAÇÃO">Localização</a></li>
+        <li><a href="#GALERIA">Galeria</a></li>
+        <li><a href="#QUEM-SOMOS">Quem Somos</a></li>
+    </ul>
+</nav>
+    </header>
+<div class="main" >
+    <div class="frase" >
+    
+        <p id="lema" >Deus como guia, princípios como base, <br>
+        excelência como resultado. <br>
+        Fé, dedicação e excelência: <br>
+        o DNA da nossa barbearia.💈🚀<br></p>
+    
+    </div>
+    
+<div class="sliderback" >
+        <h2 id="SERVIÇOS" >💈 SERVIÇOS 💈</h2>
+
+<div class="slider-cont">
+    <button class="arrow left" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="arrow right" onclick="moveSlide(1)">&#10095;</button>
+    <div class="slider-track">
+        <div class="slide"><img src="assets/images/cabelo-letra-1.png" alt="cabelo"></div>
+        <div class="slide"><img src="assets/images/barba-letra-1.png" alt="barba"></div>
+        <div class="slide"><img src="assets/images/nevou-letra-1.png" alt="nevou"></div>
+        <div class="slide"><img src="assets/images/kids-letra-1.png" alt="kids"></div>
+    </div>
+</div>
+</div>
+    <section class="map-cont">
+        <div class="map-pin">
+           </div>
+        <div class="map-resp">
+            <h2 id="LOCALIZAÇÃO" >LOCALIZAÇÃO</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!4v1773783544470!6m8!1m7!1syEQpx2hexsv1IJvynzZPOw!2m2!1d-12.91205822326314!2d-38.3695328419737!3f230.1626109824625!4f-3.059102234615821!5f0.7820865974627469" 
+      width="960" height="720" 
+      style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+        </div>
+    </section>
+    <div>
+    <h2 id="GALERIA" >GALERIA</h2>
+
+        <div>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+    </div>
+
+    
+    <section>
+    <h2 id="QUEM-SOMOS" >QUEM SOMOS</h2>
+<div class="perfil-track">
+            
+            <div class="slide-perfil">
+                <div class="foto-circular">
+                    <img src="assets/images/albert.png" alt="Foto do Barbeiro Albert">
+                </div>
+                <div class="texto-perfil">
+                    <h3>Albert Santos</h3>
+                <p>Dono da Barbearia Instinto e especialista em nevou e técnicas abc. 
+                Exemplo de frase "Não é apenas cortar cabelo ou fazer a barba, é pura técnica."
+                </p>
+                </div>
+            </div>
+
+            <div class="slide-perfil">
+                <div class="foto-circular">
+                    <img src="assets/images/henrique.png" alt="Foto do Barbeiro João">
+                </div>
+                <div class="texto-perfil">
+                    <h3>Jorge Henrique</h3>
+                    <p>Mestre dos degradês e tendências modernas."Não é so estética, é identidade."</p>
+                </div>
+            </div>
+            
+            </div>
+    </div>
+    <div class="perfil-cont" >
+        <button class="nav-perfil-prev" onclick="movePerfil(-1)" ><</button>
+        <button class="nav-perfil-next" onclick="movePerfil(1)" >></button>
+    
+    </section>
+
+   
+    
+</div>
+<script src="app.js" ></script>
+</body>
+</html>
+
